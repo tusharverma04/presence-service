@@ -1,0 +1,9 @@
+{
+    "name": "PresenceService",
+    "version": 2,
+    "env": {
+        "MONGOURI": "mongodb+srv://aditi:aditi123@cluster0-sacre.mongodb.net/test?retryWrites=true&w=majority",
+        "NODE_ENV" : "production",
+        "PORT": "4000"
+    } 
+}
