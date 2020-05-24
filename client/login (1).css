@@ -1,0 +1,139 @@
+body 
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:blue;
+    font-family:sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#header 
+{
+background-color:black;
+ text-decoration: none;
+	border: 1px solid;
+	height: 54px;
+}
+#logo
+{
+	background-repeat:no-repeat;
+	border: 0px solid;
+	height: auto;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#header ul {
+	list-style-type: none;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+		
+}
+#header ul li
+{
+	list-style: none;
+}
+#header ul li a
+{
+	font-size: 18px;
+	text-align: center;
+	line-height: 54px;
+	margin-top:100px;
+	margin: 10px 10px 0px 10px;
+	margin-bottom:-100px;
+	border: 2px solid;
+	padding:0px 5px 0px 5px; 	
+	border-radius: 15px;
+	border-color: black;
+	background-color: black;
+	color: aliceblue;
+	font-weight: bold;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+	text-decoration: none;
+}
+#header ul li a:hover {
+	background-color:white;
+	color:black;
+}
+.login
+{
+	border-radius: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width:350px;
+	height: 320px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.5)	
+}
+h2
+{
+	margin: 0;
+	padding:0 0 20px;
+	color:white;
+	text-align: center;
+}
+.lcolumn
+{
+	margin: 0;
+	font-weight: bold;
+	color:#fff;
+	padding:10px;
+}
+.tra
+{
+	border-radius: 4px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+}
+.bottom
+{
+	text-align:center;
+}
+.tr
+{
+border: none;
+	outline:none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+	background:rgba(238,28,28,0.89);
+	cursor: pointer;
+	border-radius:10px;	
+	padding: 0px 50px ;
+}
+.tr:hover
+{
+	background:rgba(255,214,79,0.77);
+	color:rgba(0,0,0,1.00);
+	
+}
+.user
+{
+	width:100px;
+	height: 100px;
+	overflow: hidden;
+	position: absolute;
+	top:calc(-100px/2);
+	margin-left:80px;
+}
+#header ul li a#onlink
+{
+	background:#ffffff;
+	color: #000000;
+}
+#header ul li a#onlink:hover
+{
+	background:#ffffff;
+	color: #000000;
+}
